@@ -1,0 +1,50 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#body{
+    background-color: rgb(0, 100, 0);
+}
+
+#title{
+    font-size: 48px;
+    color: goldenrod;
+}
+
+#start{
+    border: none;
+    color: black;
+    font-size: 26px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+#render{
+    border: none;
+    color: black;
+    font-size: 26px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+#drawcard{
+    border: none;
+    color: black;
+    font-size: 26px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
