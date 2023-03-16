@@ -63,3 +63,77 @@ function fastestRaceTime() {
 fastestRaceTimeResult = fastestRaceTime()
 
 console.log(fastestRaceTimeResult)
+
+//Property Listing
+
+let castle = {
+    forSale: true,
+    price: 280.40,
+    tags: ["london", "kitchen", "garage"]
+}
+
+console.log(castle.tags)
+console.log(castle.price)
+
+// Objects
+
+let object = {
+    name: "max",
+    age: 17,
+    country: "uk"
+}
+
+function logData() {
+    console.log(object.name + " is " + object.age + " and lives in " + object.country)
+}
+
+logData()
+
+// Conditionals
+
+let age = 70
+
+function discount() {
+    if (age < 6) {
+        return "Free"
+    }
+    else if (age > 6 && age <17) {
+    return "Child Discount"
+    }
+    else if (age >18 && age <26) {
+        return "Student Discount"
+    }
+    else if (age > 27 && age < 66) {
+        return "Full Price"
+    }
+    else {
+        return "Senior Citizen Discount"
+    }
+}
+
+console.log(discount())
+
+// For Loops
+
+let largeCountries = ["China", "India", "USA", "Indonesia", "Pakistan"]
+largeCountries.shift()
+largeCountries.unshift("China1")
+largeCountries.pop()
+largeCountries.push("yes")
+
+
+
+for (let i = 0; i < largeCountries.length; i++) {
+    console.log("- " + largeCountries[i])
+}
+
+// Rock Paper Scissors
+
+let hands = ["rock", "paper", "Scissors"]
+
+function handGesture () {
+    let gesture = Math.floor(Math.random() * 3)
+    return hands[gesture]
+}
+
+console.log(handGesture())
